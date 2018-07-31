@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="test" parallel="false" thread-count="0">
+
+	<test enabled="true" name="SeleniumTestTUT" preserve-order="true">
+		<classes>
+			<class name="test.SimpleTest"></class>
+			<class name="test.SeleniumTests">
+				<methods>
+					<include name="handleScreenCaptcha" />
+				</methods>
+
+			</class>
+			<class name="test.SeleniumTest2">
+			<methods>
+					<include name="checkBoxes" />
+				</methods>
+			
+			</class>
+				</classes>
+	</test>
+</suite>
